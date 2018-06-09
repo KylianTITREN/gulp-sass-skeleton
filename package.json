@@ -1,0 +1,25 @@
+{
+  "name": "nanoninja-gulp-sass-skeleton",
+  "version": "1.0.0",
+  "description": "Gulp Sass Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently 'gulp dev' 'lite-server --baseDir=./dist'",
+    "build": "gulp"
+  },
+  "author": "Vincent Letourneau",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^1.5.3",
+    "lite-server": "^2.2.0",
+    "node-normalize-scss": "^8.0.0"
+  }
+}
